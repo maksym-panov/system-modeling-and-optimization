@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import math
 
 # 1.2.1
@@ -42,3 +43,25 @@ b = np.array([5, 8])
 print(np.linalg.solve(A, b))
 print(np.linalg.det(A))
 print(np.linalg.inv(A))
+
+# 1.2.4
+x = np.linspace(start = -math.pi, stop = math.pi, num = 30)
+y = np.sin(x)
+
+plt.plot(x, y, "ko")
+plt.show()
+
+plt.plot(x, y, "b")
+plt.title("Sine of x")
+plt.show()
+
+x = np.arange(start = -10, stop = 10, step = 0.1)
+y1 = x**2 + 2**x - 5
+y2 = -x**2 + 60
+
+plt.plot(x, y1, "r")
+plt.plot(x, y2, "g", linestyle = "dashed")
+plt.legend(["y1", "y2"])
+plt.ylim(bottom = -10, top = 100)
+plt.title("Графіки функцій")
+plt.show()
