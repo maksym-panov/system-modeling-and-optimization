@@ -1,17 +1,23 @@
-# System Modeling and Optimization Methods
+# Laboratory assignment \#1
 
-This repository contains laboratory assignments, solved 
-by 3rd year Computer Science student Maksym Panov.
+Clone this repository
+```shell
+git clone https://github.com/maksym-panov/system-modeling-and-optimization.git
+```
+Proceed to the root directory of the project
+```shell
+cd system-modeling-and-optimization
+```
+Checkout to the `Lab_02` branch
+```shell
+git checkout Lab_02
+```
+Install `numpy`, `matplotlib` and `pandas` libraries if you do not have them.
+```shell
+pip3 install numpy matplotlib pandas
+```
 
-## Navigation
-
-Each of 8 laboratory assignments is represented by a certain branch of this repository. Use `git checkout <branch>` or button above on GitHub page of this repository to switch between branches.
-
-- [ ] Laboratory assignment 1 - branch `Lab_01`
-- [ ] Laboratory assignment 2 - _`empty`_
-- [ ] Laboratory assignment 3 - _`empty`_
-- [ ] Laboratory assignment 4 - _`empty`_
-- [ ] Laboratory assignment 5 - _`empty`_
-- [ ] Laboratory assignment 6 - _`empty`_
-- [ ] Laboratory assignment 7 - _`empty`_
-- [ ] Laboratory assignment 8 - _`empty`_
+Run the test by executing the following command:
+```shell
+python3 test.py
+```
