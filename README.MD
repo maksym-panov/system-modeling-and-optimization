@@ -1,4 +1,4 @@
-# Laboratory assignment \#1
+# Laboratory assignment \#2
 
 Clone this repository
 ```shell
@@ -12,9 +12,9 @@ Checkout to the `Lab_02` branch
 ```shell
 git checkout Lab_02
 ```
-Install `numpy`, `matplotlib` and `pandas` libraries if you do not have them.
+Install `numpy` library if you do not have it.
 ```shell
-pip3 install numpy matplotlib pandas
+pip3 install numpy
 ```
 
 Run the test by executing the following command:
