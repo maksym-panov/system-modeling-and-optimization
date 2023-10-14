@@ -1,17 +1,28 @@
-# System Modeling and Optimization Methods
+# Laboratory assignment \#3
 
-This repository contains laboratory assignments, solved 
-by 3rd year Computer Science student Maksym Panov.
+Clone this repository
+```shell
+git clone https://github.com/maksym-panov/system-modeling-and-optimization.git
+```
+Proceed to the root directory of the project
+```shell
+cd system-modeling-and-optimization
+```
+Checkout to the `Lab_03` branch
+```shell
+git checkout Lab_03
+```
+Install `numpy`, `colorama` and `scipy` libraries if you do not have them.
+```shell
+pip3 install numpy colorama scipy
+```
 
-## Navigation
+Run the test for one variable equations by executing the following command:
+```shell
+python3 test_one_variable.py
+```
 
-Each of 8 laboratory assignments is represented by a certain branch of this repository. Use `git checkout <branch>` or button above on GitHub page of this repository to switch between branches.
-
-- [ ] Laboratory assignment 1 - branch `Lab_01`
-- [ ] Laboratory assignment 2 - branch `Lab_02`
-- [ ] Laboratory assignment 3 - _`empty`_
-- [ ] Laboratory assignment 4 - _`empty`_
-- [ ] Laboratory assignment 5 - _`empty`_
-- [ ] Laboratory assignment 6 - _`empty`_
-- [ ] Laboratory assignment 7 - _`empty`_
-- [ ] Laboratory assignment 8 - _`empty`_
+Run the test for multi variable equations by executing the following command:
+```shell
+python3 test_multi_variable.py
+```
